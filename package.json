@@ -1,0 +1,16 @@
+{
+  "name": "ico-metadata-generator",
+  "version": "0.1.0",
+  "description": "Metadata generation tool for ICOapi measurements",
+  "main": "generate-config.js",
+  "type": "module",
+  "scripts": {
+    "generate": "node generate-config.js"
+  },
+  "author": "Moritz Breurather",
+  "license": "ISC",
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "xlsx": "^0.18.5"
+  }
+}
